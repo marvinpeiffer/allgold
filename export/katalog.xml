@@ -1,0 +1,1718 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="allgold">
+	<table_structure name="inventory">
+		<field Field="inventoryID" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="stationID" Type="int(11)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="productID" Type="int(11)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="currentAmount" Type="int(11)" Null="NO" Key="" Extra="" Comment="" />
+		<key Table="inventory" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="inventoryID" Collation="A" Cardinality="240" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="inventory" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="240" Avg_row_length="68" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="241" Create_time="2020-01-07 17:32:35" Collation="latin1_swedish_ci" Create_options="" Comment="" Max_index_length="0" Temporary="N" />
+	</table_structure>
+	<table_data name="inventory">
+	<row>
+		<field name="inventoryID">1</field>
+		<field name="stationID">1</field>
+		<field name="productID">1</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">2</field>
+		<field name="stationID">1</field>
+		<field name="productID">2</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">3</field>
+		<field name="stationID">1</field>
+		<field name="productID">3</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">4</field>
+		<field name="stationID">1</field>
+		<field name="productID">4</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">5</field>
+		<field name="stationID">1</field>
+		<field name="productID">5</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">6</field>
+		<field name="stationID">1</field>
+		<field name="productID">6</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">7</field>
+		<field name="stationID">1</field>
+		<field name="productID">7</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">8</field>
+		<field name="stationID">1</field>
+		<field name="productID">8</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">9</field>
+		<field name="stationID">1</field>
+		<field name="productID">9</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">10</field>
+		<field name="stationID">1</field>
+		<field name="productID">10</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">11</field>
+		<field name="stationID">1</field>
+		<field name="productID">11</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">12</field>
+		<field name="stationID">1</field>
+		<field name="productID">12</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">13</field>
+		<field name="stationID">1</field>
+		<field name="productID">13</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">14</field>
+		<field name="stationID">1</field>
+		<field name="productID">14</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">15</field>
+		<field name="stationID">1</field>
+		<field name="productID">15</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">16</field>
+		<field name="stationID">1</field>
+		<field name="productID">16</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">17</field>
+		<field name="stationID">1</field>
+		<field name="productID">17</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">18</field>
+		<field name="stationID">1</field>
+		<field name="productID">18</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">19</field>
+		<field name="stationID">1</field>
+		<field name="productID">19</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">20</field>
+		<field name="stationID">1</field>
+		<field name="productID">20</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">21</field>
+		<field name="stationID">2</field>
+		<field name="productID">1</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">22</field>
+		<field name="stationID">2</field>
+		<field name="productID">2</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">23</field>
+		<field name="stationID">2</field>
+		<field name="productID">3</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">24</field>
+		<field name="stationID">2</field>
+		<field name="productID">4</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">25</field>
+		<field name="stationID">2</field>
+		<field name="productID">5</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">26</field>
+		<field name="stationID">2</field>
+		<field name="productID">6</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">27</field>
+		<field name="stationID">2</field>
+		<field name="productID">7</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">28</field>
+		<field name="stationID">2</field>
+		<field name="productID">8</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">29</field>
+		<field name="stationID">2</field>
+		<field name="productID">9</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">30</field>
+		<field name="stationID">2</field>
+		<field name="productID">10</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">31</field>
+		<field name="stationID">2</field>
+		<field name="productID">11</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">32</field>
+		<field name="stationID">2</field>
+		<field name="productID">12</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">33</field>
+		<field name="stationID">2</field>
+		<field name="productID">13</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">34</field>
+		<field name="stationID">2</field>
+		<field name="productID">14</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">35</field>
+		<field name="stationID">2</field>
+		<field name="productID">15</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">36</field>
+		<field name="stationID">2</field>
+		<field name="productID">16</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">37</field>
+		<field name="stationID">2</field>
+		<field name="productID">17</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">38</field>
+		<field name="stationID">2</field>
+		<field name="productID">18</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">39</field>
+		<field name="stationID">2</field>
+		<field name="productID">19</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">40</field>
+		<field name="stationID">2</field>
+		<field name="productID">20</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">41</field>
+		<field name="stationID">3</field>
+		<field name="productID">1</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">42</field>
+		<field name="stationID">3</field>
+		<field name="productID">2</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">43</field>
+		<field name="stationID">3</field>
+		<field name="productID">3</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">44</field>
+		<field name="stationID">3</field>
+		<field name="productID">4</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">45</field>
+		<field name="stationID">3</field>
+		<field name="productID">5</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">46</field>
+		<field name="stationID">3</field>
+		<field name="productID">6</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">47</field>
+		<field name="stationID">3</field>
+		<field name="productID">7</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">48</field>
+		<field name="stationID">3</field>
+		<field name="productID">8</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">49</field>
+		<field name="stationID">3</field>
+		<field name="productID">9</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">50</field>
+		<field name="stationID">3</field>
+		<field name="productID">10</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">51</field>
+		<field name="stationID">3</field>
+		<field name="productID">11</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">52</field>
+		<field name="stationID">3</field>
+		<field name="productID">12</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">53</field>
+		<field name="stationID">3</field>
+		<field name="productID">13</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">54</field>
+		<field name="stationID">3</field>
+		<field name="productID">14</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">55</field>
+		<field name="stationID">3</field>
+		<field name="productID">15</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">56</field>
+		<field name="stationID">3</field>
+		<field name="productID">16</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">57</field>
+		<field name="stationID">3</field>
+		<field name="productID">17</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">58</field>
+		<field name="stationID">3</field>
+		<field name="productID">18</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">59</field>
+		<field name="stationID">3</field>
+		<field name="productID">19</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">60</field>
+		<field name="stationID">3</field>
+		<field name="productID">20</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">61</field>
+		<field name="stationID">4</field>
+		<field name="productID">1</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">62</field>
+		<field name="stationID">4</field>
+		<field name="productID">2</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">63</field>
+		<field name="stationID">4</field>
+		<field name="productID">3</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">64</field>
+		<field name="stationID">4</field>
+		<field name="productID">4</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">65</field>
+		<field name="stationID">4</field>
+		<field name="productID">5</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">66</field>
+		<field name="stationID">4</field>
+		<field name="productID">6</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">67</field>
+		<field name="stationID">4</field>
+		<field name="productID">7</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">68</field>
+		<field name="stationID">4</field>
+		<field name="productID">8</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">69</field>
+		<field name="stationID">4</field>
+		<field name="productID">9</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">70</field>
+		<field name="stationID">4</field>
+		<field name="productID">10</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">71</field>
+		<field name="stationID">4</field>
+		<field name="productID">11</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">72</field>
+		<field name="stationID">4</field>
+		<field name="productID">12</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">73</field>
+		<field name="stationID">4</field>
+		<field name="productID">13</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">74</field>
+		<field name="stationID">4</field>
+		<field name="productID">14</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">75</field>
+		<field name="stationID">4</field>
+		<field name="productID">15</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">76</field>
+		<field name="stationID">4</field>
+		<field name="productID">16</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">77</field>
+		<field name="stationID">4</field>
+		<field name="productID">17</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">78</field>
+		<field name="stationID">4</field>
+		<field name="productID">18</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">79</field>
+		<field name="stationID">4</field>
+		<field name="productID">19</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">80</field>
+		<field name="stationID">4</field>
+		<field name="productID">20</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">81</field>
+		<field name="stationID">5</field>
+		<field name="productID">1</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">82</field>
+		<field name="stationID">5</field>
+		<field name="productID">2</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">83</field>
+		<field name="stationID">5</field>
+		<field name="productID">3</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">84</field>
+		<field name="stationID">5</field>
+		<field name="productID">4</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">85</field>
+		<field name="stationID">5</field>
+		<field name="productID">5</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">86</field>
+		<field name="stationID">5</field>
+		<field name="productID">6</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">87</field>
+		<field name="stationID">5</field>
+		<field name="productID">7</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">88</field>
+		<field name="stationID">5</field>
+		<field name="productID">8</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">89</field>
+		<field name="stationID">5</field>
+		<field name="productID">9</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">90</field>
+		<field name="stationID">5</field>
+		<field name="productID">10</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">91</field>
+		<field name="stationID">5</field>
+		<field name="productID">11</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">92</field>
+		<field name="stationID">5</field>
+		<field name="productID">12</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">93</field>
+		<field name="stationID">5</field>
+		<field name="productID">13</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">94</field>
+		<field name="stationID">5</field>
+		<field name="productID">14</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">95</field>
+		<field name="stationID">5</field>
+		<field name="productID">15</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">96</field>
+		<field name="stationID">5</field>
+		<field name="productID">16</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">97</field>
+		<field name="stationID">5</field>
+		<field name="productID">17</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">98</field>
+		<field name="stationID">5</field>
+		<field name="productID">18</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">99</field>
+		<field name="stationID">5</field>
+		<field name="productID">19</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">100</field>
+		<field name="stationID">5</field>
+		<field name="productID">20</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">101</field>
+		<field name="stationID">6</field>
+		<field name="productID">1</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">102</field>
+		<field name="stationID">6</field>
+		<field name="productID">2</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">103</field>
+		<field name="stationID">6</field>
+		<field name="productID">3</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">104</field>
+		<field name="stationID">6</field>
+		<field name="productID">4</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">105</field>
+		<field name="stationID">6</field>
+		<field name="productID">5</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">106</field>
+		<field name="stationID">6</field>
+		<field name="productID">6</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">107</field>
+		<field name="stationID">6</field>
+		<field name="productID">7</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">108</field>
+		<field name="stationID">6</field>
+		<field name="productID">8</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">109</field>
+		<field name="stationID">6</field>
+		<field name="productID">9</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">110</field>
+		<field name="stationID">6</field>
+		<field name="productID">10</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">111</field>
+		<field name="stationID">6</field>
+		<field name="productID">11</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">112</field>
+		<field name="stationID">6</field>
+		<field name="productID">12</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">113</field>
+		<field name="stationID">6</field>
+		<field name="productID">13</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">114</field>
+		<field name="stationID">6</field>
+		<field name="productID">14</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">115</field>
+		<field name="stationID">6</field>
+		<field name="productID">15</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">116</field>
+		<field name="stationID">6</field>
+		<field name="productID">16</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">117</field>
+		<field name="stationID">6</field>
+		<field name="productID">17</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">118</field>
+		<field name="stationID">6</field>
+		<field name="productID">18</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">119</field>
+		<field name="stationID">6</field>
+		<field name="productID">19</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">120</field>
+		<field name="stationID">6</field>
+		<field name="productID">20</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">121</field>
+		<field name="stationID">7</field>
+		<field name="productID">1</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">122</field>
+		<field name="stationID">7</field>
+		<field name="productID">2</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">123</field>
+		<field name="stationID">7</field>
+		<field name="productID">3</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">124</field>
+		<field name="stationID">7</field>
+		<field name="productID">4</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">125</field>
+		<field name="stationID">7</field>
+		<field name="productID">5</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">126</field>
+		<field name="stationID">7</field>
+		<field name="productID">6</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">127</field>
+		<field name="stationID">7</field>
+		<field name="productID">7</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">128</field>
+		<field name="stationID">7</field>
+		<field name="productID">8</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">129</field>
+		<field name="stationID">7</field>
+		<field name="productID">9</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">130</field>
+		<field name="stationID">7</field>
+		<field name="productID">10</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">131</field>
+		<field name="stationID">7</field>
+		<field name="productID">11</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">132</field>
+		<field name="stationID">7</field>
+		<field name="productID">12</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">133</field>
+		<field name="stationID">7</field>
+		<field name="productID">13</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">134</field>
+		<field name="stationID">7</field>
+		<field name="productID">14</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">135</field>
+		<field name="stationID">7</field>
+		<field name="productID">15</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">136</field>
+		<field name="stationID">7</field>
+		<field name="productID">16</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">137</field>
+		<field name="stationID">7</field>
+		<field name="productID">17</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">138</field>
+		<field name="stationID">7</field>
+		<field name="productID">18</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">139</field>
+		<field name="stationID">7</field>
+		<field name="productID">19</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">140</field>
+		<field name="stationID">7</field>
+		<field name="productID">20</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">141</field>
+		<field name="stationID">8</field>
+		<field name="productID">1</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">142</field>
+		<field name="stationID">8</field>
+		<field name="productID">2</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">143</field>
+		<field name="stationID">8</field>
+		<field name="productID">3</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">144</field>
+		<field name="stationID">8</field>
+		<field name="productID">4</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">145</field>
+		<field name="stationID">8</field>
+		<field name="productID">5</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">146</field>
+		<field name="stationID">8</field>
+		<field name="productID">6</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">147</field>
+		<field name="stationID">8</field>
+		<field name="productID">7</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">148</field>
+		<field name="stationID">8</field>
+		<field name="productID">8</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">149</field>
+		<field name="stationID">8</field>
+		<field name="productID">9</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">150</field>
+		<field name="stationID">8</field>
+		<field name="productID">10</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">151</field>
+		<field name="stationID">8</field>
+		<field name="productID">11</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">152</field>
+		<field name="stationID">8</field>
+		<field name="productID">12</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">153</field>
+		<field name="stationID">8</field>
+		<field name="productID">13</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">154</field>
+		<field name="stationID">8</field>
+		<field name="productID">14</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">155</field>
+		<field name="stationID">8</field>
+		<field name="productID">15</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">156</field>
+		<field name="stationID">8</field>
+		<field name="productID">16</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">157</field>
+		<field name="stationID">8</field>
+		<field name="productID">17</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">158</field>
+		<field name="stationID">8</field>
+		<field name="productID">18</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">159</field>
+		<field name="stationID">8</field>
+		<field name="productID">19</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">160</field>
+		<field name="stationID">8</field>
+		<field name="productID">20</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">161</field>
+		<field name="stationID">9</field>
+		<field name="productID">1</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">162</field>
+		<field name="stationID">9</field>
+		<field name="productID">2</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">163</field>
+		<field name="stationID">9</field>
+		<field name="productID">3</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">164</field>
+		<field name="stationID">9</field>
+		<field name="productID">4</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">165</field>
+		<field name="stationID">9</field>
+		<field name="productID">5</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">166</field>
+		<field name="stationID">9</field>
+		<field name="productID">6</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">167</field>
+		<field name="stationID">9</field>
+		<field name="productID">7</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">168</field>
+		<field name="stationID">9</field>
+		<field name="productID">8</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">169</field>
+		<field name="stationID">9</field>
+		<field name="productID">9</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">170</field>
+		<field name="stationID">9</field>
+		<field name="productID">10</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">171</field>
+		<field name="stationID">9</field>
+		<field name="productID">11</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">172</field>
+		<field name="stationID">9</field>
+		<field name="productID">12</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">173</field>
+		<field name="stationID">9</field>
+		<field name="productID">13</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">174</field>
+		<field name="stationID">9</field>
+		<field name="productID">14</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">175</field>
+		<field name="stationID">9</field>
+		<field name="productID">15</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">176</field>
+		<field name="stationID">9</field>
+		<field name="productID">16</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">177</field>
+		<field name="stationID">9</field>
+		<field name="productID">17</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">178</field>
+		<field name="stationID">9</field>
+		<field name="productID">18</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">179</field>
+		<field name="stationID">9</field>
+		<field name="productID">19</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">180</field>
+		<field name="stationID">9</field>
+		<field name="productID">20</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">181</field>
+		<field name="stationID">10</field>
+		<field name="productID">1</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">182</field>
+		<field name="stationID">10</field>
+		<field name="productID">2</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">183</field>
+		<field name="stationID">10</field>
+		<field name="productID">3</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">184</field>
+		<field name="stationID">10</field>
+		<field name="productID">4</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">185</field>
+		<field name="stationID">10</field>
+		<field name="productID">5</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">186</field>
+		<field name="stationID">10</field>
+		<field name="productID">6</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">187</field>
+		<field name="stationID">10</field>
+		<field name="productID">7</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">188</field>
+		<field name="stationID">10</field>
+		<field name="productID">8</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">189</field>
+		<field name="stationID">10</field>
+		<field name="productID">9</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">190</field>
+		<field name="stationID">10</field>
+		<field name="productID">10</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">191</field>
+		<field name="stationID">10</field>
+		<field name="productID">11</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">192</field>
+		<field name="stationID">10</field>
+		<field name="productID">12</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">193</field>
+		<field name="stationID">10</field>
+		<field name="productID">13</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">194</field>
+		<field name="stationID">10</field>
+		<field name="productID">14</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">195</field>
+		<field name="stationID">10</field>
+		<field name="productID">15</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">196</field>
+		<field name="stationID">10</field>
+		<field name="productID">16</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">197</field>
+		<field name="stationID">10</field>
+		<field name="productID">17</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">198</field>
+		<field name="stationID">10</field>
+		<field name="productID">18</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">199</field>
+		<field name="stationID">10</field>
+		<field name="productID">19</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">200</field>
+		<field name="stationID">10</field>
+		<field name="productID">20</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">201</field>
+		<field name="stationID">11</field>
+		<field name="productID">1</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">202</field>
+		<field name="stationID">11</field>
+		<field name="productID">2</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">203</field>
+		<field name="stationID">11</field>
+		<field name="productID">3</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">204</field>
+		<field name="stationID">11</field>
+		<field name="productID">4</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">205</field>
+		<field name="stationID">11</field>
+		<field name="productID">5</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">206</field>
+		<field name="stationID">11</field>
+		<field name="productID">6</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">207</field>
+		<field name="stationID">11</field>
+		<field name="productID">7</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">208</field>
+		<field name="stationID">11</field>
+		<field name="productID">8</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">209</field>
+		<field name="stationID">11</field>
+		<field name="productID">9</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">210</field>
+		<field name="stationID">11</field>
+		<field name="productID">10</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">211</field>
+		<field name="stationID">11</field>
+		<field name="productID">11</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">212</field>
+		<field name="stationID">11</field>
+		<field name="productID">12</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">213</field>
+		<field name="stationID">11</field>
+		<field name="productID">13</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">214</field>
+		<field name="stationID">11</field>
+		<field name="productID">14</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">215</field>
+		<field name="stationID">11</field>
+		<field name="productID">15</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">216</field>
+		<field name="stationID">11</field>
+		<field name="productID">16</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">217</field>
+		<field name="stationID">11</field>
+		<field name="productID">17</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">218</field>
+		<field name="stationID">11</field>
+		<field name="productID">18</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">219</field>
+		<field name="stationID">11</field>
+		<field name="productID">19</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">220</field>
+		<field name="stationID">11</field>
+		<field name="productID">20</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">221</field>
+		<field name="stationID">12</field>
+		<field name="productID">1</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">222</field>
+		<field name="stationID">12</field>
+		<field name="productID">2</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">223</field>
+		<field name="stationID">12</field>
+		<field name="productID">3</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">224</field>
+		<field name="stationID">12</field>
+		<field name="productID">4</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">225</field>
+		<field name="stationID">12</field>
+		<field name="productID">5</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">226</field>
+		<field name="stationID">12</field>
+		<field name="productID">6</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">227</field>
+		<field name="stationID">12</field>
+		<field name="productID">7</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">228</field>
+		<field name="stationID">12</field>
+		<field name="productID">8</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">229</field>
+		<field name="stationID">12</field>
+		<field name="productID">9</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">230</field>
+		<field name="stationID">12</field>
+		<field name="productID">10</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">231</field>
+		<field name="stationID">12</field>
+		<field name="productID">11</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">232</field>
+		<field name="stationID">12</field>
+		<field name="productID">12</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">233</field>
+		<field name="stationID">12</field>
+		<field name="productID">13</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">234</field>
+		<field name="stationID">12</field>
+		<field name="productID">14</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">235</field>
+		<field name="stationID">12</field>
+		<field name="productID">15</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">236</field>
+		<field name="stationID">12</field>
+		<field name="productID">16</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">237</field>
+		<field name="stationID">12</field>
+		<field name="productID">17</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">238</field>
+		<field name="stationID">12</field>
+		<field name="productID">18</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">239</field>
+		<field name="stationID">12</field>
+		<field name="productID">19</field>
+		<field name="currentAmount">5</field>
+	</row>
+	<row>
+		<field name="inventoryID">240</field>
+		<field name="stationID">12</field>
+		<field name="productID">20</field>
+		<field name="currentAmount">5</field>
+	</row>
+	</table_data>
+	<table_structure name="products">
+		<field Field="productID" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(20)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="price" Type="decimal(3,2)" Null="NO" Key="" Extra="" Comment="" />
+		<key Table="products" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="productID" Collation="A" Cardinality="20" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="products" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="20" Avg_row_length="819" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="21" Create_time="2020-01-07 17:32:58" Collation="latin1_swedish_ci" Create_options="" Comment="" Max_index_length="0" Temporary="N" />
+	</table_structure>
+	<table_data name="products">
+	<row>
+		<field name="productID">1</field>
+		<field name="name">Milch</field>
+		<field name="price">1.00</field>
+	</row>
+	<row>
+		<field name="productID">2</field>
+		<field name="name">Emmentaler</field>
+		<field name="price">3.95</field>
+	</row>
+	<row>
+		<field name="productID">3</field>
+		<field name="name">Gauda</field>
+		<field name="price">3.10</field>
+	</row>
+	<row>
+		<field name="productID">4</field>
+		<field name="name">Joghurt Natur 100g</field>
+		<field name="price">0.50</field>
+	</row>
+	<row>
+		<field name="productID">5</field>
+		<field name="name">Quark</field>
+		<field name="price">0.90</field>
+	</row>
+	<row>
+		<field name="productID">6</field>
+		<field name="name">Joghurt 500g</field>
+		<field name="price">2.00</field>
+	</row>
+	<row>
+		<field name="productID">7</field>
+		<field name="name">Streichkaese</field>
+		<field name="price">1.50</field>
+	</row>
+	<row>
+		<field name="productID">8</field>
+		<field name="name">Bergkaese</field>
+		<field name="price">5.00</field>
+	</row>
+	<row>
+		<field name="productID">9</field>
+		<field name="name">Joghurt Edelweiß 100</field>
+		<field name="price">4.00</field>
+	</row>
+	<row>
+		<field name="productID">10</field>
+		<field name="name">Joghurt Erdbeere 100</field>
+		<field name="price">4.20</field>
+	</row>
+	<row>
+		<field name="productID">11</field>
+		<field name="name">Joghurt Heimische Be</field>
+		<field name="price">4.20</field>
+	</row>
+	<row>
+		<field name="productID">12</field>
+		<field name="name">Joghurt Loewenzahn 1</field>
+		<field name="price">5.50</field>
+	</row>
+	<row>
+		<field name="productID">13</field>
+		<field name="name">Joghurt Kirsche 100g</field>
+		<field name="price">4.00</field>
+	</row>
+	<row>
+		<field name="productID">14</field>
+		<field name="name">Joghurt Zwetschge 10</field>
+		<field name="price">4.10</field>
+	</row>
+	<row>
+		<field name="productID">15</field>
+		<field name="name">Allgaeuer Bergkaese</field>
+		<field name="price">2.50</field>
+	</row>
+	<row>
+		<field name="productID">16</field>
+		<field name="name">Emmentaler</field>
+		<field name="price">2.80</field>
+	</row>
+	<row>
+		<field name="productID">17</field>
+		<field name="name">Kraeuterkaese</field>
+		<field name="price">3.20</field>
+	</row>
+	<row>
+		<field name="productID">18</field>
+		<field name="name">Rosenkaese</field>
+		<field name="price">2.90</field>
+	</row>
+	<row>
+		<field name="productID">19</field>
+		<field name="name">Enziankaese</field>
+		<field name="price">2.50</field>
+	</row>
+	<row>
+		<field name="productID">20</field>
+		<field name="name">Frischkaese 20</field>
+		<field name="price">2.00</field>
+	</row>
+	</table_data>
+	<table_structure name="sales">
+		<field Field="salesID" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="productID" Type="int(11)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="amount" Type="int(11)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="stationID" Type="int(11)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="sellerID" Type="int(11)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="timestamp" Type="timestamp" Null="NO" Key="" Default="current_timestamp()" Extra="on update current_timestamp()" Comment="" />
+		<key Table="sales" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="salesID" Collation="A" Cardinality="0" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="sales" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="0" Avg_row_length="0" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="1" Create_time="2020-01-07 17:33:15" Collation="latin1_swedish_ci" Create_options="" Comment="" Max_index_length="0" Temporary="N" />
+	</table_structure>
+	<table_data name="sales">
+	</table_data>
+	<table_structure name="seller">
+		<field Field="sellerID" Type="int(11)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="name" Type="varchar(20)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="role" Type="varchar(20)" Null="NO" Key="" Extra="" Comment="" />
+		<key Table="seller" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="sellerID" Collation="A" Cardinality="5" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="seller" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="5" Avg_row_length="3276" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="6" Create_time="2020-01-07 17:33:25" Collation="latin1_swedish_ci" Create_options="" Comment="" Max_index_length="0" Temporary="N" />
+	</table_structure>
+	<table_data name="seller">
+	<row>
+		<field name="sellerID">1</field>
+		<field name="name">Marvin</field>
+		<field name="role">Geschäftsführer</field>
+	</row>
+	<row>
+		<field name="sellerID">2</field>
+		<field name="name">Peter</field>
+		<field name="role">Lieferant</field>
+	</row>
+	<row>
+		<field name="sellerID">3</field>
+		<field name="name">Linda</field>
+		<field name="role">Verkäufer</field>
+	</row>
+	<row>
+		<field name="sellerID">4</field>
+		<field name="name">C3PO</field>
+		<field name="role">Automat</field>
+	</row>
+	<row>
+		<field name="sellerID">5</field>
+		<field name="name">Luggi</field>
+		<field name="role">Verkäufer</field>
+	</row>
+	</table_data>
+	<table_structure name="station">
+		<field Field="stationID" Type="int(10)" Null="NO" Key="PRI" Extra="auto_increment" Comment="" />
+		<field Field="coordsA" Type="varchar(30)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="coordsL" Type="varchar(30)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="location" Type="varchar(30)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="type" Type="varchar(1)" Null="NO" Key="" Extra="" Comment="" />
+		<field Field="description" Type="varchar(50)" Null="NO" Key="" Extra="" Comment="" />
+		<key Table="station" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="stationID" Collation="A" Cardinality="12" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="station" Engine="InnoDB" Version="10" Row_format="Dynamic" Rows="12" Avg_row_length="1365" Data_length="16384" Max_data_length="0" Index_length="0" Data_free="0" Auto_increment="13" Create_time="2020-01-07 17:33:42" Update_time="2020-01-07 17:33:42" Collation="latin1_swedish_ci" Create_options="" Comment="" Max_index_length="0" Temporary="N" />
+	</table_structure>
+	<table_data name="station">
+	<row>
+		<field name="stationID">1</field>
+		<field name="coordsA">47.71457225467146</field>
+		<field name="coordsL">10.314338207244873</field>
+		<field name="location">Kempten</field>
+		<field name="type">B</field>
+		<field name="description">Firmensitz</field>
+	</row>
+	<row>
+		<field name="stationID">2</field>
+		<field name="coordsA">47.72426740349347</field>
+		<field name="coordsL">10.316848754882812</field>
+		<field name="location">Kempten</field>
+		<field name="type">A</field>
+		<field name="description">Außenstelle</field>
+	</row>
+	<row>
+		<field name="stationID">3</field>
+		<field name="coordsA">47.882828716292344</field>
+		<field name="coordsL">10.6264343852617</field>
+		<field name="location">Kaufbeuren</field>
+		<field name="type">V</field>
+		<field name="description">Außenstelle</field>
+	</row>
+	<row>
+		<field name="stationID">4</field>
+		<field name="coordsA">47.98036221803081</field>
+		<field name="coordsL">10.1788330078125</field>
+		<field name="location">Memmingen</field>
+		<field name="type">B</field>
+		<field name="description">Außenstelle</field>
+	</row>
+	<row>
+		<field name="stationID">5</field>
+		<field name="coordsA">47.694697038966076</field>
+		<field name="coordsL">10.038070678710938</field>
+		<field name="location">Isny</field>
+		<field name="type">A</field>
+		<field name="description">Außenstelle</field>
+	</row>
+	<row>
+		<field name="stationID">6</field>
+		<field name="coordsA">47.77941861197757</field>
+		<field name="coordsL">10.616891384124756</field>
+		<field name="location">Marktoberdorf</field>
+		<field name="type">A</field>
+		<field name="description">Außenstelle</field>
+	</row>
+	<row>
+		<field name="stationID">7</field>
+		<field name="coordsA">47.514634612973694</field>
+		<field name="coordsL">10.26755619153846</field>
+		<field name="location">Sonthofen</field>
+		<field name="type">V</field>
+		<field name="description">Außenstelle</field>
+	</row>
+	<row>
+		<field name="stationID">8</field>
+		<field name="coordsA">47.41029678060909</field>
+		<field name="coordsL">10.275293827580754</field>
+		<field name="location">Oberstdorf</field>
+		<field name="type">A</field>
+		<field name="description">Außenstelle</field>
+	</row>
+	<row>
+		<field name="stationID">9</field>
+		<field name="coordsA">47.554643912647045</field>
+		<field name="coordsL">10.022393703984562</field>
+		<field name="location">Oberstaufen</field>
+		<field name="type">A</field>
+		<field name="description">Außenstelle</field>
+	</row>
+	<row>
+		<field name="stationID">10</field>
+		<field name="coordsA">47.560841627466885</field>
+		<field name="coordsL">10.21770143561298</field>
+		<field name="location">Immenstadt</field>
+		<field name="type">A</field>
+		<field name="description">Außenstelle</field>
+	</row>
+	<row>
+		<field name="stationID">11</field>
+		<field name="coordsA">47.569648</field>
+		<field name="coordsL">10.700432800000044</field>
+		<field name="location">Füssen</field>
+		<field name="type">B</field>
+		<field name="description">Außenstelle</field>
+	</row>
+	<row>
+		<field name="stationID">12</field>
+		<field name="coordsA">47.550241351721596</field>
+		<field name="coordsL">9.69220304476039</field>
+		<field name="location">Lindau</field>
+		<field name="type">B</field>
+		<field name="description">Außenstelle</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
